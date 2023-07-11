@@ -1,0 +1,27 @@
+<?php
+$dbhost = 'localhost';
+$dbport = '';
+$dbname = 'richieste';
+$dbuser = 'bandi';
+$dbpwd  = 'assegni09';
+
+//$smarty_php_path = '/usr/lib/php5/Smarty/';
+$smarty_php_path = '/usr/lib64/php/Smarty/';
+$smarty_path = '../smarty/';
+$mpdf_path = '../mpdf/';
+$allegati_path = 'allegati/';
+//$default_new_form = "form-2012.php";
+
+$sendEmail = true;
+//sito in manutenzio
+$maintenance = false;
+
+if (!function_exists('htmlspecialchars_decode')) {
+  
+  if (!function_exists("htmlspecialchars_decode")) {
+    function htmlspecialchars_decode($string, $quote_style = ENT_COMPAT) {
+      return strtr($string, array_flip(get_html_translation_table(HTML_SPECIALCHARS, $quote_style)));
+    }
+  }
+ }
+?>

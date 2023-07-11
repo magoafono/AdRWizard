@@ -1,0 +1,17 @@
+
+body {
+    font-family: verdana;
+    text-align: justify;
+    font-size: 9pt;
+}
+
+ol {
+    list-style-type: lower-alpha; 
+}
+
+ol.olnumber {
+    list-style-type: decimal; 
+
+}
+
+p { text-align: justify; }

@@ -1,0 +1,24 @@
+form#login {
+ background-color: #c3d9ff;
+ color: #000000;
+ border: 1px solid #999999;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ text-align: right;
+}
+
+#login .text {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ width: 100px;
+ margin-right: 6px;
+
+}
+
+#login .buttons {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ background-color: #333333;
+ color: #FFFFFF;
+ margin-right: 6px;
+}
